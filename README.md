@@ -26,8 +26,6 @@ The CLI RPN Calculator is a command-line tool designed to perform arithmetic ope
 - **Improved Testing:** Add comprehensive unit and integration tests to ensure robustness and prevent regressions.
 - **User Experience:** Enhance the user interface with better prompts, help commands, and error messages.
 
-## How to Run Your Code
-
 ### Prerequisites
 
 - **Node.js:** Ensure that Node.js is installed on your system. You can download it from [Node.js](https://nodejs.org/).
@@ -36,10 +34,19 @@ The CLI RPN Calculator is a command-line tool designed to perform arithmetic ope
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/RyanMcGatha/RPN-Calculator.git
    ```
-2. **Run the Calculator:**
+2. **Navigate to Cloned Repository:**
+
+   ```bash
+   cd RPN-Calculator
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+    npm install
+   ```
+4. **Run the Calculator:**
    ```bash
     npm start
    ```
